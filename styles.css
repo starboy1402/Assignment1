@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* section -> class 01  */
@@ -78,10 +79,10 @@ nav button{
     width: 1140px;
     height: 328px;
     display: flex;
-    margin: 0 auto ;
     justify-content: space-between;
     align-items: center;
-     margin: 0 auto 116px auto;
+    margin: 116px auto 116px auto;
+    /* border: 1px solid #1e28db; */
 }
 
 .class02 img{
@@ -116,4 +117,47 @@ nav button{
     font-size: 16px;
     font-weight: 600;
     border : none;
+}
+
+/* section -> class 03  */
+
+.class03{
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #EDEEFF; 
+  padding : 50px 80px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 24px;
+}
+
+.class03 h1 {
+    font-size: 38px;
+  font-weight: 700;
+  color: #2b2b2b;
+  margin-bottom: 40px;
+}
+
+.class03 .user-data {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.class03 .data  h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.class03 .data p {
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+    font-family: 'Inter', sans-serif;
 }
