@@ -240,3 +240,26 @@ nav button {
     color: #9ca3af;
     font-size: 0.9rem;
 }
+
+/* hover effects just for fun 
+    dont know all the proper mechanism of hover effects
+    but used from the internet
+    will learn more about it later
+    especially the transition and transform properties
+    and how to use them properly
+    but for now i know that cursor: pointer; is used to change the cursor to a pointer when hovering over an element
+    and background-color: violet; is used to change the background color of an element when hovering
+    thats all for now
+*/
+
+.hover {
+    transition: transform 0.3s ease;
+}
+
+.hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    background-color: violet;
+}
+
